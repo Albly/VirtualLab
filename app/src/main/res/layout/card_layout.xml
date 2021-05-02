@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tv_number_measurement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="measurement 1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_friction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Friction" />
+
+            <TextView
+                android:id="@+id/tv_angle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tiltAngle" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp"
+    android:paddingTop="16dp">
+
+    <Button
+        android:text="@string/accelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_accel"
+        android:tag="BTN_ACCELEROMETER"
+        style="@style/ButtonTheme" />
+
+    <Button
+        android:text="@string/gyroscope"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_gyro"
+        android:tag="BTN_GYROSCOPE"
+        style="@style/ButtonTheme" />
+
+    <Button
+        android:id="@+id/btn_magneticField"
+        style="@style/ButtonTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/magnetic_field_sensor" />
+
+    <Button
+        android:text="@string/light_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_light"
+        style="@style/ButtonTheme"
+        android:enabled="false" />
+
+    <Button
+        android:text="@string/temperature_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_temperature"
+        style="@style/ButtonTheme"
+        android:enabled="false" />
+
+    <Button
+        android:text="@string/barometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_barometr"
+        style="@style/ButtonTheme"
+        android:enabled="false" />
+
+    <Button
+        android:text="@string/humidity_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_humidity"
+        style="@style/ButtonTheme"
+        android:enabled="false" />
+</LinearLayout>
